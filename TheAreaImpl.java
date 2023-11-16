@@ -3,7 +3,8 @@ public class TheAreaImpl implements ThePerimeterInterface{
     @Override
     public double ThePerimeterOfRectangle(Rectangle rectangle) {
         // TODO Auto-generated method stub
-        return rectangle.getHeight() * rectangle.getWidth();
+        double area = rectangle.getHeight() * rectangle.getWidth();
+        return area;
     }
 
     @Override
